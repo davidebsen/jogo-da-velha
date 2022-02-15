@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    background-image: url(../img/fundo.jpg);
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.quadrado {
+    text-align: center;
+    width: 50px;
+    background: white;
+    display: inline-block;
+    padding: 40px;
+    font-size: 60px;
+    margin: 5px;
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid rgba(10, 185, 10, 0.747); 
+    transition: 0.5s ease all;
+
+}
+
+.jogador, .vencedor {
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+button {
+    margin-top: 10px;
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    background: rgba(255, 255, 255, 0.349);
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid rgba(10, 185, 10, 0.747); 
+}
+
+footer {
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: bold;
+
+}
